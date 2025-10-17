@@ -36,7 +36,7 @@ Links with timestamps are provided for each Remix API, feature or demo introduce
   - [Bubbling custom events [1:40:11]](https://youtu.be/iZl0IKj0HHc?t=6011)
   - [Rendering a Remix component inside a web component [1:43:45]](https://youtu.be/iZl0IKj0HHc?t=6225)
 - [Introducing Remix - Part 2 (Server, routing, hydration and `Frame`)](https://www.youtube.com/watch?v=dZbZgxWlzr8)
-  - [Intro to Remix server model [5:31:11]](https://youtu.be/dZbZgxWlzr8?t=30)
+  - [Intro to Remix server model [00:30]](https://youtu.be/dZbZgxWlzr8?t=30)
   - [`createRequestListener` for using fetch handlers in Node servers [04:51]](https://youtu.be/dZbZgxWlzr8?t=291)
   - [`html` helper for creating HTML responses [06:28]](https://youtu.be/dZbZgxWlzr8?t=388)
   - [`RoutePattern` for matching URLs to routes with type-safe parameters [10:53]](https://youtu.be/dZbZgxWlzr8?t=653)
