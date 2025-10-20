@@ -76,18 +76,68 @@ Links with timestamps are provided for each Remix API, feature or demo introduce
 
   An improved version of the drum machine demo from Remix Jam 2025, expanded to include a full spectrum analyzer and the ability to edit the drum pattern.
 
-## Third-party integration examples
 
+## Third-Party Integration Examples
+
+### State Management
+
+- [idb](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/storage/idb.tsx)
 - [Jotai](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/jotai.tsx)
-- [Motion](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/animations/motion.tsx)
+- [Legend State](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/legend-state.tsx)
+- [localForage](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/storage/localforage.tsx)
+- [Nano Stores](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/nanostores.tsx)
 - [Preact Signals](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/signals.tsx)
 - [Redux Toolkit](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/redux.tsx)
 - [RxJS](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/rxjs.tsx)
-- [TanStack Form](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/tanstack-libs/form.tsx)
 - TanStack Query
-  - [Using `@tanstack/query-core` APIs directly](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/tanstack-libs/query.tsx)
-  - [With a custom Remix-specific `queryCache` function](https://gist.github.com/aleclarson/914a784b7a27a2b5b66358b9f9e0622e)
+  - [Using `@tanstack/query-core` directly](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/tanstack-libs/query.tsx)
+  - [Using a custom Remix adapter](https://gist.github.com/aleclarson/914a784b7a27a2b5b66358b9f9e0622e)
+- [Valtio](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/valtio.tsx)
+- [XState](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/xstate.tsx)
+- [XState Store](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/xstate-store.tsx)
+- [Zustand](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/zustand.tsx)
+
+### Headless UI
+
+- [TanStack Form](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/tanstack-libs/form.tsx)
 - [TanStack Table](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/tanstack-libs/table.tsx)
 - [TanStack Virtual](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/tanstack-libs/virtual.tsx)
-- [XState](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/xstate.tsx)
-- [Zustand](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/zustand.tsx)
+
+### Animation
+
+- [Motion](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/animations/motion.tsx)
+
+### i18n
+
+- [FormatJS](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/i18n/formatjs.tsx)
+- [i18next](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/i18next.tsx)
+
+### Other
+
+- [Tiptap](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/rich-text/tiptap.tsx) - Rich text editor
+- [Fuse.js](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/search/fuse.tsx) - Fuzzy search
+- [match-sorter](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/search/match-sorter.tsx) - Best-match array sorting
+
+## Web API Integration Examples
+
+- [`BroadcastChannel` for inter-tab communication](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/broadcast-channel.tsx)
+- [Drag and Drop API](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/drag-drop.tsx)
+- [`document.visibilityState` and `visibilitychange` event for detecting when the page is `visible` or `hidden`](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/page-visibility.tsx)
+- [`EventTarget` for custom state management](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/event-target.tsx)
+- [`fullscreenchange` event handler for full screen mode detection](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/fullscreen.tsx)
+- [`IntersectionObserver` for detecting when elements are in the viewport](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/intersection-observer.tsx)
+- [`let` for mutable component state](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/state-libs/vanilla.tsx)
+- [`localStorage`](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/storage/local-storage.tsx)
+- [`navigator.share` for triggering the device's native share interface](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/share.tsx)
+- [`Notification`](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/notification.tsx)
+- [`navigator.clipboard`](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/clipboard.tsx)
+- [`navigator.geolocation`](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/geolocation.tsx)
+- [`ResizeObserver`](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/resize-observer.tsx)
+- [`screen.orientation` and `orientationchange` event](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/screen-orientation.tsxhttps://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/screen-orientation.tsx)
+- [Web Animations API](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/web-api/web-animations.tsx)
+
+## Experiments
+
+- [vite-plugin-remix](https://github.com/jacob-ebey/vite-plugin-remix)
+
+  Adds support for the `"use client"` directive to automatically pass components through Remix's `hydrated()` function, with added support for chunking.
