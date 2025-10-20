@@ -79,6 +79,10 @@ Links with timestamps are provided for each Remix API, feature or demo introduce
 
 ## Third-Party Integration Examples
 
+### Dev Tools
+
+- [Storybook](https://github.com/markdalgleish/remix-storybook-example)
+
 ### State Management
 
 - [idb](https://github.com/sergiodxa/remix-v3-examples/blob/main/app/storage/idb.tsx)
